@@ -11,87 +11,72 @@
 <body>
     <header>Apresentações do EM <a id="home" href="https://gyorge-escola.github.io/">Voltar</a></header>
     <div id="Principal">
-        <div class="slide">
-            <h3>Oxygen not included</h3>
-            <a href="https://docs.google.com/presentation/d/1gi2H9zjzlhCpzqM5HxHHbAoIljH5sOtegU4ijX4jF2Y/edit?usp=sharing">
-                <div class="conteudo">
-                    <img src="./thumbs/oni.png" alt="">
-                    <p>&ensp;Slide que fiz para aula de projeto de vida</p>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <h3>Historia dos Astecas</h3>
-            <a href="https://www.canva.com/design/DAGInUdtdo0/4Sky4U5C7XPAbn4J5yuI_g/view?utm_content=DAGInUdtdo0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb396ca0690">
-                <div class="conteudo">
-                    <img src="./thumbs/asteca.png" alt="">
-                    <p>Slide de Historia</p>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <h3>Artes</h3>
-            <a href="https://docs.google.com/presentation/d/1f94IbzAib7RbrWWYk38sc-jfS3DnVcFuy_rPTwTYamw/edit?usp=sharing">
-                <div class="conteudo">
-                    <img src="./thumbs/arte.png" alt="">
-                    <p>Slide sobre movimentos artisticos</p>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <h3>Sociologia</h3>
-            <a href="https://www.canva.com/design/DAG0dmjzbxw/I4VF8IuiXOH5r2sSR-ajYA/view?utm_content=DAG0dmjzbxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he3ab4c1876">
-                <div class="conteudo">
-                    <img src="./thumbs/sociologia.png" alt="">
-                    <p>Slide sobre movimentos sociologicos "A evolução de entreterimento"</p>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <h3>Análise</h3>
-            <a href="https://www.canva.com/design/DAG2cEm5t6M/AdF_0CV5Pp2mBhx6rB0wJw/view?utm_content=DAG2cEm5t6M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2308106337">
-                <div class="conteudo">
-                    <img src="./thumbs/analise.png" alt="">
-                    <p>Slide sobre kick-off</p>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <h3>Linux</h3>
-            <a href="https://www.canva.com/design/DAGRsjmzT1A/jLSXsGEoaP23cXOy7Hua4g/edit?utm_content=DAGRsjmzT1A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-                <div class="conteudo">
-                    <img src="./thumbs/tux.png" alt="">
-                    <p>&ensp;Slide sobre Distros Linux. Foi pedido para que cada grupo escolhe-se uma Distro, este é sobre o Mint</p>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <h3>Rede</h3>
-            <a href="https://www.canva.com/design/DAGqP3mgAeQ/i2Mkzj7LQB6U6unLHA0Euw/view?utm_content=DAGqP3mgAeQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4ceb4110d6">
-                <div class="conteudo">
-                    <img src="./thumbs/rede.png" alt="">
-                    <p>Slide sobre Rede de Computadores</p>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <h3>Arduino</h3>
-            <a href="https://www.canva.com/design/DAGyuIItyVo/zcEVIkOl3DgfBzdNuLAszw/view?utm_content=DAGyuIItyVo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h80e579f3dc">
-                <div class="conteudo">
-                    <img src="./thumbs/arduino.png" alt="">
-                    <p>Slide sobre Arduino</p>
-                </div>
-            </a>
-        </div>
-        <div class="slide">
-            <h3>Empreendimento</h3>
-            <a href="https://www.canva.com/design/DAHCF4HsY-o/_F5vEv7NCRwFXZ1U18ThYw/edit?utm_content=DAHCF4HsY-o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-                <div class="conteudo">
-                    <img src="./thumbs/empreendimento.png" alt="">
-                    <p>Slide do empreendimento da DJD company e do CaféTãoBom</p>
-                </div>
-            </a>
-        </div>
     </div>
+    <script>
+        const divumlayot = document.getElementById("Principal")
+        const titulos = [
+            "Artes",
+            "Historia dos Astecas",
+            "Oxygen not included",
+            "Linux",
+            "Rede",
+            "Arduino",
+            "Análise",
+            "Sociologia",
+            "Empreendimento"
+        ]
+        const thumbs = [
+            "arte.png",
+            "asteca.png",
+            "oni.png",
+            "tux.png",
+            "rede.png",
+            "arduino.png",
+            "analise.png",
+            "sociologia.png",
+            "empreendimento.png"
+        ]
+        const descricoes = [
+            "Um movimento artistico, trabalho de artes.",
+            "Slide sobre uma civilização nativo-americana para Historia.",
+            "Slide que fiz para aula de projeto de vida, o tema era livre.",
+            "Dia em que o Fabio Dias me sorteou num grupo com o Denilson e fizemos nosso primeiro slide. Último de 2024.",
+            "Agora em 2025, primeiro slide do Fabio, pra aquecer.",
+            "Segundo slide do Fabio, agora pra zoar com a cara dele!",
+            "Terceiro e último slide do Fabio de 2025, agora pra zoar ate o RCO.",
+            "Slide <em>Absolute cinema</em> pra sociologia. Nossa apresentação durou uma aula inteira! Último de 2025",
+            "Pra continuar a tradição de 2025: <em>'É o café tão bom!'</em>. A ideia não foi minha!",
+        ]
+        const links = [
+            "https://docs.google.com/presentation/d/1f94IbzAib7RbrWWYk38sc-jfS3DnVcFuy_rPTwTYamw/edit?usp=sharing",
+            "https://www.canva.com/design/DAGInUdtdo0/4Sky4U5C7XPAbn4J5yuI_g/view?utm_content=DAGInUdtdo0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb396ca0690",
+            "https://docs.google.com/presentation/d/1gi2H9zjzlhCpzqM5HxHHbAoIljH5sOtegU4ijX4jF2Y/edit?usp=sharing",
+            "https://www.canva.com/design/DAGRsjmzT1A/jLSXsGEoaP23cXOy7Hua4g/edit?utm_content=DAGRsjmzT1A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+            "https://www.canva.com/design/DAGqP3mgAeQ/i2Mkzj7LQB6U6unLHA0Euw/view?utm_content=DAGqP3mgAeQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4ceb4110d6",
+            "https://www.canva.com/design/DAGyuIItyVo/zcEVIkOl3DgfBzdNuLAszw/view?utm_content=DAGyuIItyVo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h80e579f3dc",
+            "https://www.canva.com/design/DAG2cEm5t6M/AdF_0CV5Pp2mBhx6rB0wJw/view?utm_content=DAG2cEm5t6M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2308106337",
+            "https://www.canva.com/design/DAG0dmjzbxw/I4VF8IuiXOH5r2sSR-ajYA/view?utm_content=DAG0dmjzbxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he3ab4c1876",
+            "https://www.canva.com/design/DAHCF4HsY-o/_F5vEv7NCRwFXZ1U18ThYw/edit?utm_content=DAHCF4HsY-o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        ]
+
+        for (let i = 0; i < titulos.length; i++) {
+            const titulo = titulos[i]
+            const thumb = thumbs[i]
+            const descricao = descricoes[i]
+            const link = links[i]
+            
+            divumlayot.innerHTML += `
+            <div id="${titulo}" class="materia">
+                <h3>${titulo}</h3>
+                <a href="${link}">
+                    <div id="${titulo}" class="conteudo">
+                        <img src="./thumbs/${thumb}" alt="">
+                        <p>${descricao}</p>
+                    </div>
+                </a>
+            </div>
+            `
+        }
+    </script>
 </body>
 </html>
