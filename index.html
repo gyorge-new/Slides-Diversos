@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://gyorge-escola.github.io/imgs/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
     <title>Apresentações</title>
 </head>
 <body>
-    <header>Apresentações do EM <a id="home" href="https://gyorge-escola.github.io/">Voltar</a></header>
-    <div id="Principal">
+    <header>Apresentações escolares <a id="home" href="https://gyorge-escola.github.io/">Voltar</a></header>
+    <div id="grid">
     </div>
     <script>
-        const divumlayot = document.getElementById("Principal")
         const titulos = [
             "Artes",
             "Historia dos Astecas",
@@ -44,7 +46,7 @@
             "Agora em 2025, primeiro slide do Fabio, pra aquecer.",
             "Segundo slide do Fabio, agora pra zoar com a cara dele!",
             "Terceiro e último slide do Fabio de 2025, agora pra zoar ate o RCO.",
-            "Slide <em>Absolute cinema</em> pra sociologia. Nossa apresentação durou uma aula inteira! Último de 2025",
+            "Slide <em>Absolute cinema</em> pra sociologia. Nossa apresentação durou uma aula inteira! Última de 2025.",
             "Pra continuar a tradição de 2025: <em>'É o café tão bom!'</em>. A ideia não foi minha!",
         ]
         const links = [
@@ -58,6 +60,7 @@
             "https://www.canva.com/design/DAG0dmjzbxw/I4VF8IuiXOH5r2sSR-ajYA/view?utm_content=DAG0dmjzbxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he3ab4c1876",
             "https://www.canva.com/design/DAHCF4HsY-o/_F5vEv7NCRwFXZ1U18ThYw/edit?utm_content=DAHCF4HsY-o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         ]
+        const divumlayot = document.getElementById("grid")
 
         for (let i = 0; i < titulos.length; i++) {
             const titulo = titulos[i]
@@ -66,12 +69,12 @@
             const link = links[i]
             
             divumlayot.innerHTML += `
-            <div id="${titulo}" class="materia">
+            <div id="${titulo}" class="bloco">
                 <h3>${titulo}</h3>
                 <a href="${link}">
-                    <div id="${titulo}" class="conteudo">
+                    <div id="${titulo}" class="subloco">
                         <img src="./thumbs/${thumb}" alt="">
-                        <p>${descricao}</p>
+                        <p class="descri">${descricao}</p>
                     </div>
                 </a>
             </div>
