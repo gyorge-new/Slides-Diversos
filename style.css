@@ -66,8 +66,8 @@ a{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 5%;
     box-sizing: border-box;
+    padding: 5%;
     transition: all 0.2s ease-in-out;
     background-color: var(--caixas);
     font-size: 100%;
