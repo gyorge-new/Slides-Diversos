@@ -13,7 +13,7 @@
     <base target="_top">
 </head>
 <body>
-    <header>Apresentações escolares <a id="home" href="https://gyorge-escola.github.io/">Voltar</a></header>
+    <header>Apresentações escolares <button onclick="voltar()" id="home">Voltar</button></header>
     <div id="grid">
     </div>
     <script>
@@ -88,6 +88,14 @@
                 </a>
             </div>
             `
+        }
+
+        function voltar() {
+            if (window.self !== window.top) {
+                window.parent.deSite()
+            } else {
+                window.location.href = "https://gyorge-escola.github.io/";
+            }
         }
     </script>
 </body>
