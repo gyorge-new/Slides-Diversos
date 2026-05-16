@@ -1,0 +1,72 @@
+const titulos = [
+    "Artes",
+    "Historia dos Astecas",
+    "Oxygen not included",
+    "Linux",
+    "Rede",
+    "Arduino",
+    "Análise",
+    "Sociologia",
+    "Empreendimento",
+    "Injustiça social",
+    "Nota 1000",
+]
+const thumbs = [
+    "arte.png",
+    "asteca.png",
+    "oni.png",
+    "tux.png",
+    "rede.png",
+    "arduino.png",
+    "analise.png",
+    "sociologia.png",
+    "empreendimento.png",
+    "injustiça.png",
+    "notamil.png"
+]
+const descricoes = [
+    "Um movimento artistico, trabalho de artes.",
+    "Slide sobre uma civilização nativo-americana para Historia.",
+    "Slide que fiz para aula de projeto de vida, o tema era livre.",
+    "Dia em que o Fabio Dias me sorteou num grupo com o Denilson e fizemos nosso primeiro slide. Último de 2024.",
+    "Agora em 2025, primeiro slide do Fabio, pra aquecer.",
+    "Segundo slide do Fabio, agora pra zoar com a cara dele!",
+    "Terceiro e último slide do Fabio de 2025, agora pra zoar ate o RCO.",
+    "Slide <em>Absolute cinema</em> pra sociologia. Nossa apresentação durou uma aula inteira! Última de 2025.",
+    "Pra continuar a tradição de 2025: <em>'É o café tão bom!'</em>. A ideia não foi minha!",
+    "Slide rosa para diferenciar",
+    "Apresentação sobre uma redção nota 1000 no ENEM pra aula de português"
+]
+const links = [
+    "https://docs.google.com/presentation/d/1ojeXRv7zWK64sb4I9tMKGQKlq72S_q0Jfg2ugY5UQ9U/edit?usp=sharing",
+    "https://www.canva.com/design/DAGInUdtdo0/4Sky4U5C7XPAbn4J5yuI_g/view?utm_content=DAGInUdtdo0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb396ca0690",
+    "https://docs.google.com/presentation/d/1OFfaEn0GMWvDER3DClZjx3N51nGvzqmoQlYMRW7-KTQ/edit?usp=sharing",
+    "https://www.canva.com/design/DAGRsjmzT1A/jLSXsGEoaP23cXOy7Hua4g/edit?utm_content=DAGRsjmzT1A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "https://www.canva.com/design/DAGqP3mgAeQ/i2Mkzj7LQB6U6unLHA0Euw/view?utm_content=DAGqP3mgAeQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4ceb4110d6",
+    "https://www.canva.com/design/DAGyuIItyVo/zcEVIkOl3DgfBzdNuLAszw/view?utm_content=DAGyuIItyVo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h80e579f3dc",
+    "https://www.canva.com/design/DAG2cEm5t6M/AdF_0CV5Pp2mBhx6rB0wJw/view?utm_content=DAG2cEm5t6M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2308106337",
+    "https://www.canva.com/design/DAG0dmjzbxw/I4VF8IuiXOH5r2sSR-ajYA/view?utm_content=DAG0dmjzbxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he3ab4c1876",
+    "https://www.canva.com/design/DAHCF4HsY-o/_F5vEv7NCRwFXZ1U18ThYw/edit?utm_content=DAHCF4HsY-o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "https://canva.link/nerqxshpy9p4ibs",
+    "https://canva.link/lq8n4nn7ctdxj9o"
+]
+const divumlayot = document.getElementById("grid")
+
+for (let i = 0; i < titulos.length; i++) {
+    const titulo = titulos[i]
+    const thumb = thumbs[i]
+    const descricao = descricoes[i]
+    const link = links[i]
+    
+    divumlayot.innerHTML += `
+    <div id="${titulo}" class="bloco">
+        <h3>${titulo}</h3>
+        <a href="${link}">
+            <div id="${titulo}" class="subloco">
+                <img src="./thumbs/${thumb}" alt="">
+                <p class="descri">${descricao}</p>
+            </div>
+        </a>
+    </div>
+    `
+}
