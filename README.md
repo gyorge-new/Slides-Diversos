@@ -1,3 +1,3 @@
 # Slides-Diversos
-## acesse https://gyorge-escola.github.io
+## acesse https://gyorge-new.github.io
 ### Lá você vera a pagina web feita em html
