@@ -10,6 +10,7 @@ const titulos = [
     "Empreendimento",
     "Injustiça social",
     "Nota 1000",
+    "Colchões Tão Bom"
 ]
 const thumbs = [
     "arte.png",
@@ -22,7 +23,8 @@ const thumbs = [
     "sociologia.png",
     "empreendimento.png",
     "injustiça.png",
-    "notamil.png"
+    "notamil.png",
+    "ctb.png"
 ]
 const descricoes = [
     "Um movimento artistico, trabalho de artes.",
@@ -35,7 +37,8 @@ const descricoes = [
     "Slide <em>Absolute cinema</em> pra sociologia. Nossa apresentação durou uma aula inteira! Última de 2025.",
     "Pra continuar a tradição de 2025: <em>'É o café tão bom!'</em>. A ideia não foi minha!",
     "Slide rosa para diferenciar",
-    "Apresentação sobre uma redção nota 1000 no ENEM pra aula de português"
+    "Apresentação sobre uma redção nota 1000 no ENEM pra aula de português",
+    "Literalmente slide que foi feito para ser uma paresentação de teatro"
 ]
 const links = [
     "https://docs.google.com/presentation/d/1ojeXRv7zWK64sb4I9tMKGQKlq72S_q0Jfg2ugY5UQ9U/edit?usp=sharing",
@@ -48,7 +51,8 @@ const links = [
     "https://www.canva.com/design/DAG0dmjzbxw/I4VF8IuiXOH5r2sSR-ajYA/view?utm_content=DAG0dmjzbxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he3ab4c1876",
     "https://www.canva.com/design/DAHCF4HsY-o/_F5vEv7NCRwFXZ1U18ThYw/edit?utm_content=DAHCF4HsY-o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "https://canva.link/nerqxshpy9p4ibs",
-    "https://canva.link/lq8n4nn7ctdxj9o"
+    "https://canva.link/lq8n4nn7ctdxj9o",
+    "https://canva.link/q4ce2fhxzvssqdj"
 ]
 const divumlayot = document.getElementById("grid")
 
