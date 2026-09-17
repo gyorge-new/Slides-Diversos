@@ -40,7 +40,7 @@ const descricoes = [
     "Pra continuar a tradição de 2025: <em>'É o café tão bom!'</em>. A ideia foi do Borges!",
     "Slide rosa para diferenciar",
     "Apresentação sobre uma redção nota 1000 no ENEM pra aula de português",
-    "Storytelling com personagens <em>iconicos<em>: Dias Smith, Peagá e Gorjão",
+    "Storytelling com personagens <strong>icônicos</strong>: Dias Smith, Peagá e Gorjão",
     "Slide ruim porque o Fabio fico chato e não quer mais slides legais >:("
 ]
 const links = [
