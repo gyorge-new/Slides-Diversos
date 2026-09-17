@@ -10,7 +10,8 @@ const titulos = [
     "Empreendimento",
     "Injustiça social",
     "Nota 1000",
-    "Colchões Tão Bom"
+    "Colchões Tão Bom",
+    "P.O.O"
 ]
 const thumbs = [
     "arte.png",
@@ -24,7 +25,8 @@ const thumbs = [
     "empreendimento.png",
     "injustiça.png",
     "notamil.png",
-    "ctb.png"
+    "ctb.png",
+    "poo.png"
 ]
 const descricoes = [
     "Um movimento artistico, trabalho de artes.",
@@ -32,13 +34,14 @@ const descricoes = [
     "Slide que fiz para aula de projeto de vida, o tema era livre.",
     "Dia em que o Fabio Dias me sorteou num grupo com o Denilson e fizemos nosso primeiro slide. Último de 2024.",
     "Agora em 2025, primeiro slide do Fabio, pra aquecer.",
-    "Segundo slide do Fabio, agora pra zoar com a cara dele!",
-    "Terceiro e último slide do Fabio de 2025, agora pra zoar ate o RCO.",
+    "Segundo slide do Fabio, até com música pra alegrar o Dias",
+    "Terceiro e último slide do Fabio de 2025, Fabio Dono Do RCO.",
     "Slide <em>Absolute cinema</em> pra sociologia. Nossa apresentação durou uma aula inteira! Última de 2025.",
-    "Pra continuar a tradição de 2025: <em>'É o café tão bom!'</em>. A ideia não foi minha!",
+    "Pra continuar a tradição de 2025: <em>'É o café tão bom!'</em>. A ideia foi do Borges!",
     "Slide rosa para diferenciar",
     "Apresentação sobre uma redção nota 1000 no ENEM pra aula de português",
-    "Literalmente slide que foi feito para ser uma paresentação de teatro"
+    "Storytelling com personagens <em>iconicos<em>: Dias Smith, Peagá e Gorjão",
+    "Slide ruim porque o Fabio fico chato e não quer mais slides legais >:("
 ]
 const links = [
     "https://docs.google.com/presentation/d/1ojeXRv7zWK64sb4I9tMKGQKlq72S_q0Jfg2ugY5UQ9U/edit?usp=sharing",
@@ -52,7 +55,8 @@ const links = [
     "https://www.canva.com/design/DAHCF4HsY-o/_F5vEv7NCRwFXZ1U18ThYw/edit?utm_content=DAHCF4HsY-o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "https://canva.link/nerqxshpy9p4ibs",
     "https://canva.link/lq8n4nn7ctdxj9o",
-    "https://canva.link/q4ce2fhxzvssqdj"
+    "https://canva.link/q4ce2fhxzvssqdj",
+    "https://canva.link/t573ytqnaxkem04"
 ]
 const divumlayot = document.getElementById("grid")
 
