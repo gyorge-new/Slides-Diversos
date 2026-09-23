@@ -11,7 +11,8 @@ const titulos = [
     "Injustiça social",
     "Nota 1000",
     "Colchões Tão Bom",
-    "P.O.O"
+    "P.O.O",
+    "Arcadismo"
 ]
 const thumbs = [
     "arte.png",
@@ -26,7 +27,8 @@ const thumbs = [
     "injustiça.png",
     "notamil.png",
     "ctb.png",
-    "poo.png"
+    "poo.png",
+    "naotem.png"
 ]
 const descricoes = [
     "Um movimento artistico, trabalho de artes.",
@@ -41,7 +43,8 @@ const descricoes = [
     "Slide rosa para diferenciar",
     "Apresentação sobre uma redção nota 1000 no ENEM pra aula de português",
     "Storytelling com personagens <strong>icônicos</strong>: Dias Smith, Peagá e Gorjão",
-    "Slide ruim porque o Fabio fico chato e não quer mais slides legais >:("
+    "Slide ruim porque o Fabio fico chato e não quer mais slides legais >:(",
+    "Slide da escola literaria Arcadismo para português"
 ]
 const links = [
     "https://docs.google.com/presentation/d/1ojeXRv7zWK64sb4I9tMKGQKlq72S_q0Jfg2ugY5UQ9U/edit?usp=sharing",
@@ -56,7 +59,8 @@ const links = [
     "https://canva.link/nerqxshpy9p4ibs",
     "https://canva.link/lq8n4nn7ctdxj9o",
     "https://canva.link/q4ce2fhxzvssqdj",
-    "https://canva.link/t573ytqnaxkem04"
+    "https://canva.link/t573ytqnaxkem04",
+    "https://canva.link/zhwmj0gmk5885he"
 ]
 const divumlayot = document.getElementById("grid")
 
