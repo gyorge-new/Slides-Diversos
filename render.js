@@ -28,7 +28,7 @@ const thumbs = [
     "notamil.png",
     "ctb.png",
     "poo.png",
-    "naotem.png"
+    "arcadismo.png"
 ]
 const descricoes = [
     "Um movimento artistico, trabalho de artes.",
